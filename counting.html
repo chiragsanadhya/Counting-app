@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script> 
+    <link rel="stylesheet" href="/counting.css">
+</head>
+<body>
+    <img src="1262248.webp" class="img">
+    <div >
+        <h1 class="font-bold text-6xl text-center mt-20 mb-10">THIS IS SIMPLE COUNTING APP</h1>
+        <h3 class="text-3xl text-grey-600 text-center">Please click the buttton to increase the count</h3>
+        <h1 class="text-8xl text-bold text-purple-500 text-center pt-20" id="count-el">0</h1>
+        
+        <div class="btn pt-20">
+            <button class="rounded bg-transparent font-bold text-blue-500 py-7 px-5 text-5xl hover:bg-blue-700 hover:text-white mr-20" onclick ="increament()">CLICK HERE</button>
+            <button class="rounded bg-transparent font-bold text-green-500 py-7 px-5 text-5xl hover:bg-green-700 hover:text-white" id="save-btn" onclick ="save()">SAVE</button>
+        </div>
+        <p class="text-center text-4xl font-bold py-20" id = "save-el">Previous entries :</p>
+    </div>
+    <script src="/counting.js"></script>
+</body>
+</html>
